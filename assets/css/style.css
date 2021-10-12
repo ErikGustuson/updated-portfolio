@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #BB5A5A;
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #F2E9D0;
+  padding-left: 40px;
+}
+
+.trees {
+  margin: 0px;
+  padding: 0%;
+  height: 1000px;
+  width: 100%;
+  background-image: url("../images/tree-background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.selfie {
+  margin: 0%;
+  padding: 0%;
+}

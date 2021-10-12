@@ -4,16 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Erik Gustuson - Beginner Web Developer</title>
   </head>
 
   <body>
+    <header class="header">
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="assets/images/tree-background.jpeg">
+          </div>
+          <a href="#user"><img class="circle" src="assets/images/freyja_and_dad.jpg"></a>
+          <a href="#name"><span class="white-text name">Erik "Gus" Gustuson</span></a>
+          <a href="mailto:gusgus1919@gmail.com"><span class="white-text email">gusgus1919@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="medium material-icons black-text">menu</i></a>
+      <h1>Erik "Gus" Gustuson</h1>
+    </header>
+
+      <figure class="trees">
+          <figure class="selfie">
+              <img src="assets/images/freyja_and_dad.jpg" alt="picture of Erik and Freyja" height="40%" width="40%">
+          </figure>
+          <h2 class="about" id="about-me">About</h2>
+              <p>
+                  Experienced technical support analyst interested in technology and problem solving. Shares his 
+                  passion for this through mentoring and training of others and is alway looking to opportunities 
+                  to learn something new and teach anyone who would like to listen.  Has extensive experience in 
+                  process improvement and technical troubleshooting.
+              </p>
+      </figure>
+
+  
     
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
