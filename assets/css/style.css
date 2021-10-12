@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #EACEB4;
 }
 
 .header {
@@ -18,16 +19,49 @@ h1 {
 }
 
 .trees {
+  display: flex;
   margin: 0px;
   padding: 0%;
-  height: 1000px;
+  height: 750px;
   width: 100%;
-  background-image: url("../images/tree-background.jpeg");
+  background-image: url(../images/tree-background.jpeg);
   background-size: cover;
   background-position: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .selfie {
-  margin: 0%;
-  padding: 0%;
+  height: 400px;
+  width: 400px;
+  min-width: 350px;
+  min-height: 350px;
+  border: solid 2px lightslategray;
+  box-shadow: black 20px 20px 20px;
+}
+
+.about {
+  color: azure;
+  padding: 20px 0px 0px 20px;
+  margin: 0;
+}
+
+.story {
+  width: 500px;
+  height: 300px;
+  color: azure;
+  background-color: #EACEB4;
+  color: #BB5A5A;
+  position: relative;
+  border-radius: 15px;
+  border: 3px solid #BB5A5A;
+  box-shadow: azure 20px 20px 20px;
+}
+
+.story p {
+padding: 10px;
+font-size: 20px;
 }
