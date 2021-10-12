@@ -65,3 +65,15 @@ h1 {
 padding: 10px;
 font-size: 20px;
 }
+
+#my-work {
+  background-color: #BB5A5A;
+  color: #E79E85;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
